@@ -1,5 +1,10 @@
 import pyautogui as pa
+import time
+while True:
+  pa.keyDown('f6')
+  pa.keyUp('f6')
 
-locate = pa.locateCenterOnScreen("./Fairy.png")
+  time.sleep(0.1)
 
-print(locate)
+  pa.mouseDown()
+  pa.mouseUp()

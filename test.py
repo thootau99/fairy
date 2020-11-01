@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui, pygetwindow
 import sys
 import time
 from PIL import Image
